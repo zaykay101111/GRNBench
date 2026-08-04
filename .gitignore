@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environment (uv.lock is what gets committed, not this)
+.venv/
+
+# Secrets and local config
+.env
+
+# macOS
+.DS_Store
+
+# Data — datasets live in object storage, addressed by hash
+data/
+*.h5ad
+
+# Timeline docs
+TIMELINE.md
+
